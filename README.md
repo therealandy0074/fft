@@ -1,63 +1,49 @@
-# How to install (DEFAULT or BASIC USAGE)
-	* git clone https://github.com/teamsyntaxid/bot-ig.git
-	* cd bot-ig
-	* unzip node_modules.zip
-	* node index.js
-	* Then select the tool you want to use!
-<br/>
+# ![Image](Instagram2016_white-(64px).png) Node.JS Instagram Tools
 
-# For PC/Laptop ONLY:
-	* Download GIT for Windows	(https://git-scm.com/download/) *Choose WIN & 32bit/64bit
-	* Download NodeJS 			(https://nodejs.org/en/download/) *Choose .msi & 32bit/64bit
-	* INSTALL GIT for Windows & NodeJS
-	* Download File on Github (https://github.com/teamsyntaxid/bot-ig.git)
-	* Extract File bot-ig-master and enter the folder
-	* Right Click on Mouse, Then Select "Git Bash Here" (Make sure you are in the bot-ig folder!!!)
-	* Then type: unzip node_modules.zip
-	* To View The Contents Of a folder in bash, type: "ls" (without "")
-	* To Run The Program in bash, type: "node index.js" (without "")
-	* Then select the tool you want to use!
-<br/>
 
-# For TERMUX ONLY:
-	* Install Termux (PlayStore)
-	* Open Termux and Wait for Automatic Install of Termux.
-	* pkg install git
-	* pkg install nodejs
-	* git clone https://github.com/teamsyntaxid/bot-ig.git
-	* cd bot-ig
-	* unzip node_modules.zip
-	* ls
-	* node index.js
-	* Then select the tool you want to use!
-<br/>
+Original author of this project is man who say himself as "CCOCOT".
+He deleted his own repository, then several members of SGBTeam are taking care of development and new features.
+And this is collection of several developments that have been carried out so far.
 
-# INFORMATION:
-	* dellallphoto		"Delete All Post IG"			(WORK & TESTED)
-	* fah				"SELECTED WITH HASTAG IG"		(WORK & TESTED)
-	* fftauto			"SELECTED WITH TARGET IG"		(WORK & TESTED)
-	* flaauto			"SELECTED WITH LOCATION IG"		(WORK & TESTED)
-	* flmauto			"SELECTED WITH MEDIA IG"		(WORK & TESTED)
-	* unfollall			"UNFOLOW ALL FOLLOWING IG"		(WORK & TESTED)
-	* unfollnotfollback	"UNFOLLOW NOT FOLLOWBACK IG"	(WORK & TESTED)
-	* botlike			"LIKE/LOVE TIMELINE IG"			(WORK & TESTED)
-	* botlike2			"LIKE/LOVE TIMELINE IG"			(WORK & TESTED)
-<br/>
+----
 
-# WARNING
-	"Use tools at your own risk!!!"
-	"Use this Tool for personal use, not for sale!!!"
-	"Make sure your account is not in private to use this tool!!!"
-<br/>
+### Installation
 
-# UPDATE
-	1. Fix Error No Detect Followers Target
-    2. Input Target/delay Manual (ITTYW)
-    3. + Improvements In Display Program
-<br/>
+```
+$ git clone https://github.com/masokky/instagram-tools.git
+$ cd instagram-tools
+$ node index.js
+```
 
-# SPECIAL THANKS TO:
-	* Code by Ccocot (ccocot@bc0de.net)
-	* Fixing and Testing by Putu Syntax
-	* SGB TEAM REBORN
-	* BC0DE.NET | NAONLAH.NET - WingKocoli
+----
+
+### Features
+
+* Bot Like Timeline
+* Follow Followers Target by People
+* Follow Followers Target by Media
+* Follow Followers Target by Hastag
+* Follow Followers Target by Location
+* Follow Followers Target by People - with DM
+* Follow Followers Target by People - No Like
+* Follow Followers Target by People - No Comment & Like
+* Repost Media Target by People
+* Repost Media Target by Hashtag
+* Repost Media Target by Link
+* Comment & Like Followers Target by People
+* Comment & Like Followers Target by Hashtag
+* Bom Like Target's Post
+* Bom Comment Target's Post
+* Unfollow Not Followback
+* Unfollow All Following
+* Delete All Media
+
+----
+
+### Thanks to
+
+* CODE BY CYBER SCREAMER CCOCOT (ccocot@bc0de.net)
+* FIXING & TESTING BY SYNTAX (@officialputu_id)
+* CCOCOT.CO | BC0DE.NET | NAONLAH.NET | WingkoColi
+* SGB TEAM REBORN | Zerobyte.id | ccocot@bc0de.net
+* RMT by Mas Okky (@masokky_)

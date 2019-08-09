@@ -1,0 +1,30 @@
+import * as Bluebird from 'bluebird';
+import { Device } from './devices/device';
+import { CookieStorage } from './cookies';
+export declare class Session {
+    device: Device;
+    cookieStore: CookieStorage;
+    private jar;
+    loginAttemptCount: number;
+    constructor(device: Device, cookieStore: CookieStorage, proxy?: string);
+    private _proxyUrl;
+    proxyUrl: string;
+    readonly session_id: string;
+    readonly uuid: string;
+    readonly phone_id: string;
+    readonly device_id: string;
+    readonly advertising_id: string;
+    readonly CSRFToken: any;
+    static create(device: Device, storage: CookieStorage, username: string, password: string, proxy?: string): Bluebird<Session>;
+    static login(session: Session, username: string, password: string): Bluebird<Session>;
+    setDevice(device: Device): this;
+    getAccountId(): Bluebird<number>;
+    setProxy(url: any): this;
+    getAccount(): Promise<import("../models/user").User>;
+    destroy(): Bluebird<any>;
+    login(username: any, password: any): Bluebird<any>;
+    loginFlow(concurrency?: number): Bluebird<boolean[]>;
+    preLoginFlow(concurrency?: number): Bluebird<boolean[]>;
+    serializeCookies(): Bluebird<string>;
+    deserializeCookies(cookies: string): Promise<void>;
+}
